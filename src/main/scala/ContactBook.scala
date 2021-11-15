@@ -31,7 +31,7 @@ object ContactBook {
     val driver = "com.mysql.cj.jdbc.Driver"
     val url = "jdbc:mysql://localhost:3306/phonebook"
     val username = "root"
-    val password = "Chaser22"
+    val password = ""
 
     Class.forName(driver)
     var connection:Connection = DriverManager.getConnection(url, username, password)
